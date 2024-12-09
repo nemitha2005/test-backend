@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://test-frontend-rose.vercel.app/")
 @RestController
 @RequestMapping("/api/logs")
 public class LogStreamingController {
